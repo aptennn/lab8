@@ -13,7 +13,10 @@
   else
     status := true;
   
-  print(status);
+  if status then
+    print(366)
+  else
+    print(365);
   
 end.
 //
